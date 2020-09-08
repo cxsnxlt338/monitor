@@ -7433,7 +7433,7 @@ var _require = __webpack_require__(/*! @octokit/rest */ "./node_modules/@octokit
     Octokit = _require.Octokit;
 
 var octokit = new Octokit({
-  auth: '501d530a159fc4fb7f946263b91fc509a11c6d85'
+  auth: 'f550e69fc6954a796b2e7fcb7bc916a2c5adb114'
 });
 
 var Index = /*#__PURE__*/function (_React$Component) {
@@ -7458,7 +7458,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
       downloadIndex: null
     };
     _this.repo = {
-      owner: 'ryosuzuki',
+      owner: 'cxsnxlt338',
       repo: 'monitor-db',
       headers: {
         'If-None-Match': ''
