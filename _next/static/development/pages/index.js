@@ -7432,8 +7432,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !_b
 var _require = __webpack_require__(/*! @octokit/rest */ "./node_modules/@octokit/rest/dist-web/index.js"),
     Octokit = _require.Octokit;
 
-var token = 'hogefuga';
-var test = 'NTliMzg5NzI2ZDk5MzY3MDhlMjQ3OGMxZmUzYjk1MGQ3OGFjNzAwZQ==';
+var pass = 'bHuOLDWWh9whjGbM';
 
 var Index = /*#__PURE__*/function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_12__["default"])(Index, _React$Component);
@@ -7455,7 +7454,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
       detail: null,
       postIndex: null,
       downloadIndex: null,
-      token: null
+      pass: null
     };
     _this.repo = {
       owner: 'cxsnxlt338',
@@ -7471,10 +7470,25 @@ var Index = /*#__PURE__*/function (_React$Component) {
     key: "componentDidMount",
     value: function componentDidMount() {
       window.App = this;
+      var token = window.location.search.split('?token=')[1];
       this.octokit = new Octokit({
-        auth: atob(test)
+        auth: token
       });
+
+      if (token && token.length > 8) {
+        this.setState({
+          pass: pass
+        });
+      }
+
       this.getData();
+    }
+  }, {
+    key: "onChange",
+    value: function onChange(event) {
+      this.setState({
+        pass: event.target.value
+      });
     }
   }, {
     key: "getData",
@@ -7623,13 +7637,6 @@ var Index = /*#__PURE__*/function (_React$Component) {
       return "".concat(year, "-").concat(month, "-").concat(day, " ").concat(hour, ":").concat(min);
     }
   }, {
-    key: "onChange",
-    value: function onChange(event) {
-      this.setState({
-        token: event.target.value
-      });
-    }
-  }, {
     key: "render",
     value: function render() {
       var _this2 = this;
@@ -7638,7 +7645,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
         className: "ui centered grid"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("div", {
         className: "ten wide column"
-      }, this.state.token !== token && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("div", {
+      }, this.state.pass !== pass && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("div", {
         id: "form"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("form", {
         className: "ui form"
@@ -7647,7 +7654,7 @@ var Index = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("input", {
         type: "text",
         onChange: this.onChange.bind(this)
-      })))), this.state.token === token && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("h1", {
+      })))), this.state.pass === pass && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("h1", {
         id: "title"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_15___default.a.createElement("i", {
         className: "fas fa-tachometer-alt fa-fw"
