@@ -6979,10 +6979,10 @@ class Deprecation extends Error {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2Fcxsnx%2Fpino%2Fmonitor%2Fpages%2Findex.js!./":
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2Fcxsnx%2Fpino%2Fmonitor%2Fpages%2Findex.js ***!
-  \*****************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2F.cxsnx%2Fpino%2Fmonitor%2Fpages%2Findex.js!./":
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2F.cxsnx%2Fpino%2Fmonitor%2Fpages%2Findex.js ***!
+  \******************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7732,13 +7732,13 @@ var Index = /*#__PURE__*/function (_React$Component) {
 /***/ }),
 
 /***/ 0:
-/*!*********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2Fcxsnx%2Fpino%2Fmonitor%2Fpages%2Findex.js ***!
-  \*********************************************************************************************************************************************/
+/*!**********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2F.cxsnx%2Fpino%2Fmonitor%2Fpages%2Findex.js ***!
+  \**********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2Fcxsnx%2Fpino%2Fmonitor%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2Fcxsnx%2Fpino%2Fmonitor%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2F.cxsnx%2Fpino%2Fmonitor%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fryosuzuki%2FDocuments%2F.cxsnx%2Fpino%2Fmonitor%2Fpages%2Findex.js!./");
 
 
 /***/ }),
