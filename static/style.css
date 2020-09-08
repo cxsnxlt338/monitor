@@ -1,0 +1,20 @@
+#title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.status {
+  width: 10px;
+}
+
+.timestamp {
+  width: 150px;
+}
+
+.select {
+  background: #ffea9a;
+}
+
+pre {
+  overflow: scroll;
+}
